@@ -1,0 +1,54 @@
+{
+    "name": "labrodev/php-enum-mapper",
+    "description": "PHP utility class for formatting Enums and to treat the cases as arrays",
+    "keywords": [
+        "labrodev",
+        "php",
+        "enum",
+        "enum-mapper",
+        "helper",
+        "utility",
+        "static"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/labrodev/php-enum-mapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Labro Dev",
+            "email": "admin@labrodev.com",
+            "role": "Development Team"
+        }
+    ],
+    "support": {
+        "email": "admin@labrodev.com",
+        "issues": "https://github.com/labrodev/php-enum-mapper/issues",
+        "source": "https://github.com/labrodev/php-enum-mapper"
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.12",
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Labrodev\\PhpEnumMapper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Labrodev\\PhpEnumMapper\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "analyse": "phpstan analyse"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
